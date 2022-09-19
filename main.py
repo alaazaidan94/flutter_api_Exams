@@ -60,6 +60,7 @@ def getAllUser():
         item["lastname"] = i[4]
         item["email"] = i[5]
         lst_json.append(item)
+    mydb.close()
     return lst_json   
 
 
