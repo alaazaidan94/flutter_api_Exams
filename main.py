@@ -48,7 +48,7 @@ def get_user(id):
 @app.get("/users")  
 def getAllUser():
     cur = mydb.cursor()
-    cur.execute("SELECT * from users")
+    cur.execute("SELECT * from Users")
     c = cur.fetchall()
     lst_json=[]
     for i in c:
