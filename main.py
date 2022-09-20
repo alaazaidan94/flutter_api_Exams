@@ -164,18 +164,3 @@ def verificationUser(username,password):
 
     return x  
 
-
-mydb.close()
-
-    
-              
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
